@@ -1,0 +1,17 @@
+# Core: used by src/climate_health_final.ipynb, src/modelling.py and src/external.py
+numpy==2.5.4
+pandas==3.0.6
+scikit-learn==1.9.1
+catboost==1.2.10
+matplotlib==3.11.2
+requests==2.34.2        # ERA5 weather download (src/external.py)
+
+# Running the notebook
+ipykernel==7.4.0
+
+# Submission 5 (a final pick): TabPFN v2, plus the PyTorch version it was run with
+tabpfn==9.2.0
+torch==2.14.1
+
+# Optional: submission 4's LightGBM test (on macOS also run `brew install libomp`)
+lightgbm==4.7.0

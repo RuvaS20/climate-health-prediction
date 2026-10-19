@@ -1,0 +1,7 @@
+data/
+submissions/
+*.csv
+.DS_Store
+EOF
+
+src/__pycache__
