@@ -5,3 +5,7 @@ submissions/
 EOF
 
 src/__pycache__
+
+.claude
+
+.venv
